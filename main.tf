@@ -1,4 +1,4 @@
-provider "Rhel" {
+provider "rhel" {
   region = "us-east-1"
 }
 
@@ -13,7 +13,7 @@ resource "aws_instance" "RHEL-Server" {
 }
 
 
-provider "Ubuntu" {
+provider "ubuntu" {
   region = "us-east-1"
 }
 
