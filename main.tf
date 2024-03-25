@@ -21,7 +21,7 @@ resource "aws_instance" "Ubuntu-Server" {
   count         = 1
   ami           = "ami-080e1f13689e07408"
   instance_type = "t2.medium"
-  key_name      = "rhelkeypair1"
+  key_name      = "ubuntu2024"
   tags = {
     Name = "Ubuntu-Server"
   }
